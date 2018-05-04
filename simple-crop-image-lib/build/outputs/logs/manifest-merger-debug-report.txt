@@ -1,0 +1,37 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/baltech/Desktop/FoodCharm/simple-crop-image-lib/AndroidManifest.xml:2:1-7:12
+INJECTED from /Users/baltech/Desktop/FoodCharm/simple-crop-image-lib/AndroidManifest.xml:2:1-7:12
+INJECTED from /Users/baltech/Desktop/FoodCharm/simple-crop-image-lib/AndroidManifest.xml:2:1-7:12
+INJECTED from /Users/baltech/Desktop/FoodCharm/simple-crop-image-lib/AndroidManifest.xml:2:1-7:12
+INJECTED from /Users/baltech/Desktop/FoodCharm/simple-crop-image-lib/AndroidManifest.xml:2:1-7:12
+INJECTED from /Users/baltech/Desktop/FoodCharm/simple-crop-image-lib/AndroidManifest.xml:2:1-7:12
+INJECTED from /Users/baltech/Desktop/FoodCharm/simple-crop-image-lib/AndroidManifest.xml:2:1-7:12
+	package
+		ADDED from /Users/baltech/Desktop/FoodCharm/simple-crop-image-lib/AndroidManifest.xml:3:11-57
+		INJECTED from /Users/baltech/Desktop/FoodCharm/simple-crop-image-lib/AndroidManifest.xml
+		INJECTED from /Users/baltech/Desktop/FoodCharm/simple-crop-image-lib/AndroidManifest.xml
+	android:versionName
+		ADDED from /Users/baltech/Desktop/FoodCharm/simple-crop-image-lib/AndroidManifest.xml:5:11-36
+		INJECTED from /Users/baltech/Desktop/FoodCharm/simple-crop-image-lib/AndroidManifest.xml
+		INJECTED from /Users/baltech/Desktop/FoodCharm/simple-crop-image-lib/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/baltech/Desktop/FoodCharm/simple-crop-image-lib/AndroidManifest.xml:2:11-69
+	android:versionCode
+		ADDED from /Users/baltech/Desktop/FoodCharm/simple-crop-image-lib/AndroidManifest.xml:4:11-34
+		INJECTED from /Users/baltech/Desktop/FoodCharm/simple-crop-image-lib/AndroidManifest.xml
+		INJECTED from /Users/baltech/Desktop/FoodCharm/simple-crop-image-lib/AndroidManifest.xml
+uses-sdk
+INJECTED from /Users/baltech/Desktop/FoodCharm/simple-crop-image-lib/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/baltech/Desktop/FoodCharm/simple-crop-image-lib/AndroidManifest.xml
+INJECTED from /Users/baltech/Desktop/FoodCharm/simple-crop-image-lib/AndroidManifest.xml
+INJECTED from /Users/baltech/Desktop/FoodCharm/simple-crop-image-lib/AndroidManifest.xml
+INJECTED from /Users/baltech/Desktop/FoodCharm/simple-crop-image-lib/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/baltech/Desktop/FoodCharm/simple-crop-image-lib/AndroidManifest.xml
+		ADDED from /Users/baltech/Desktop/FoodCharm/simple-crop-image-lib/AndroidManifest.xml
+		INJECTED from /Users/baltech/Desktop/FoodCharm/simple-crop-image-lib/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/baltech/Desktop/FoodCharm/simple-crop-image-lib/AndroidManifest.xml
+		ADDED from /Users/baltech/Desktop/FoodCharm/simple-crop-image-lib/AndroidManifest.xml
+		INJECTED from /Users/baltech/Desktop/FoodCharm/simple-crop-image-lib/AndroidManifest.xml

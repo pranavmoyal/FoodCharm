@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="CustomTextView">
+        <attr name="fontName" format="string" />
+    </declare-styleable>
+
+    <declare-styleable name="CustomBottomSheetBehavior">
+        <attr name="anchorPoint" format="dimension"/>
+    </declare-styleable>
+
+    <declare-styleable name="spinner">
+        <attr name="spinnervaluearray" format="reference" />
+        <attr name="prompt" format="string" />
+        <attr name="src" format="reference" />
+        <attr name="mode">
+            <enum name="single" value="0" />
+            <enum name="multiple" value="1" />
+            <enum name="single_radio" value="2" />
+        </attr>
+    </declare-styleable>
+
+</resources>

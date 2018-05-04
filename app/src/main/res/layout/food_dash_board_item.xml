@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+
+    <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="@dimen/dp_10">
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/cv_one"
+            android:layout_width="@dimen/dp_100"
+            android:layout_height="@dimen/dp_100"
+            android:background="@color/white"
+            app:cardCornerRadius="@dimen/dp_10">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/dp_50"
+                android:src="@drawable/images"
+                android:scaleType="centerCrop"/>
+
+            <com.pranav.foodcharm.view.TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sub Way"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:textSize="@dimen/dp_20"
+                android:textColor="@color/dash_board_black"
+                android:layout_marginTop="@dimen/dp_20"
+                app:fontName="@string/helvetica_medium"/>
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/cv_two"
+            android:layout_width="@dimen/dp_100"
+            android:layout_height="@dimen/dp_100"
+            android:background="@color/white"
+            android:layout_toRightOf="@+id/cv_one"
+            android:layout_marginLeft="@dimen/dp_10"
+            app:cardCornerRadius="@dimen/dp_10">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/dp_50"
+                android:src="@drawable/foodfive"
+                android:scaleType="centerCrop"/>
+
+            <com.pranav.foodcharm.view.TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Highway"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:textSize="@dimen/dp_20"
+                android:textColor="@color/dash_board_black"
+                android:layout_marginTop="@dimen/dp_20"
+                app:fontName="@string/helvetica_medium"/>
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/cv_three"
+            android:layout_width="@dimen/dp_100"
+            android:layout_height="@dimen/dp_100"
+            android:background="@color/white"
+            android:layout_toRightOf="@+id/cv_two"
+            android:layout_marginLeft="@dimen/dp_10"
+            app:cardCornerRadius="@dimen/dp_10">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/dp_50"
+                android:src="@drawable/foodfour"
+                android:scaleType="centerCrop"/>
+
+            <com.pranav.foodcharm.view.TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Break Fast"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:textSize="@dimen/dp_20"
+                android:textColor="@color/dash_board_black"
+                android:layout_marginTop="@dimen/dp_20"
+                app:fontName="@string/helvetica_medium"/>
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/cv_four"
+            android:layout_width="@dimen/dp_330"
+            android:layout_height="@dimen/dp_150"
+            android:background="@color/white"
+            android:layout_below="@id/cv_one"
+            android:layout_marginTop="@dimen/dp_10"
+            app:cardCornerRadius="@dimen/dp_10">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/foodfour"
+                android:scaleType="centerCrop"/>
+
+            <com.pranav.foodcharm.view.TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Great Dinner"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:textSize="@dimen/dp_20"
+                android:textColor="@color/logo_red"
+                app:fontName="@string/helvetica_medium"/>
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/cv_five"
+            android:layout_width="@dimen/dp_330"
+            android:layout_height="@dimen/dp_150"
+            android:background="@color/white"
+            android:layout_below="@id/cv_four"
+            android:layout_marginTop="@dimen/dp_10"
+            app:cardCornerRadius="@dimen/dp_10">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/foodtwo"
+                android:scaleType="centerCrop"/>
+
+            <com.pranav.foodcharm.view.TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Fast Food"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:textSize="@dimen/dp_20"
+                android:textColor="@color/dash_board_black"
+                app:fontName="@string/helvetica_medium"/>
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/cv_six"
+            android:layout_width="@dimen/dp_330"
+            android:layout_height="@dimen/dp_150"
+            android:background="@color/white"
+            android:layout_below="@id/cv_five"
+            android:layout_marginTop="@dimen/dp_10"
+            app:cardCornerRadius="@dimen/dp_10">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/punjabi"
+                android:scaleType="centerCrop"/>
+
+            <com.pranav.foodcharm.view.TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Punjabi Tadka"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:textSize="@dimen/dp_20"
+                android:textColor="@color/white"
+                app:fontName="@string/helvetica_medium"/>
+
+        </android.support.v7.widget.CardView>
+
+        </RelativeLayout>
+
+    </ScrollView>
+</RelativeLayout>

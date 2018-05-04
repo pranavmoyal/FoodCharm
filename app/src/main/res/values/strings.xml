@@ -1,0 +1,73 @@
+<resources>
+
+    <string name="helvetica_light">CircularStd-Book.otf</string>
+    <string name="helvetica_medium">CircularStd-Medium.otf</string>
+    <string name="helvetica_bold">CircularStd-Bold.otf</string>
+
+    <string name="app_name">FoodCharm</string>
+    <string name="food_charm">Food Charm</string>
+    <string name="this_ll_be_quick">This \'ll be Quick</string>
+    <string name="your_name">Your Name</string>
+    <string name="Email">Email</string>
+    <string name="password">Password</string>
+    <string name="password_again">Password (again)</string>
+    <string name="mobile_number">Mobile Number</string>
+    <string name="join_foodspotting">Join foodspotting</string>
+    <string name="signup">Sign Up</string>
+    <string name="signin">Sign In</string>
+    <string name="add_photos">Pick your Avatar</string>
+    <string name="upload_pic">Upload Picture</string>
+    <string name="select_gallery">Select From Gallary</string>
+    <string name="take_picture">Take New Picture</string>
+
+    <string name="please_select_country">Please select your country</string>
+    <string name="tv_done">Done</string>
+    <string name="txt_getting_location">Getting location...</string>
+    <string name="location_permission">Food Charm requires your location access for a few internal services. You may choose to share location later. Clicking Ok will open device location settings</string>
+
+
+
+    <string name="food_id">Food Id</string>
+    <string name="lets_start">Let\'s Start</string>
+    <string name="forgot_password">Forgot Password ?</string>
+    <string name="mobile">Enter Your Mobile Number</string>
+    <string name="mobile_text">Enter the mobile number on which we can send OTP for verification.\nyou can use your mobile number as login id.</string>
+
+    <string name="send_otp">Send OTP</string>
+    <string name="resend_otp">Resend OTP ?</string>
+    <string name="success_message">Registration Successful</string>
+    <string name="email_exist">Email Exists</string>
+
+
+
+    <string name="enter_valid_user_name">Please enter a valid yoname</string>
+    <string name="enter_valid_password">Please enter a valid password</string>
+    <string name="enter_valid_password_length">Password length should be 8 or more than characters</string>
+    <string name="please_select_country_code">Please select a country code</string>
+    <string name="no_internet_connection">No internet connection !</string>
+    <string name="something_went_wrong">Something went wrong, Please try after sometime.</string>
+    <string name="you_have_successfull_login">You have successfully login</string>
+    <string name="enter_valid_first_name">Please enter a valid name</string>
+    <string name="enter_valid_last_name">Please enter a valid last name</string>
+    <string name="enter_valid_address">Please enter a valid address</string>
+    <string name="enter_valid_email">Please enter a valid email id</string>
+    <string name="enter_valid_phone">Please enter a valid mobile number</string>
+
+
+    <string name="enter_your_register_mail">Enter your registered mobile to reset the password</string>
+    <string name="enter_email_address">Enter Email Address</string>
+    <string name="enter_mobile_number">enter your mobile number</string>
+    <string name="enter_mobile_number_heading">Enter your mobile Number</string>
+    <string name="reset_password">RESET PASSWORD</string>
+    <string name="back_to_login">Back to Login</string>
+    <string name="enter_code">enter code</string>
+    <string name="enter_verification_code">Enter verification code</string>
+    <string name="enter_verification_code_label">enter verification code</string>
+    <string name="enter_new_password">new password</string>
+    <string name="submit">Submit</string>
+    <string name="continue_submit">Continue</string>
+    <string name="enter_valid_play_group_name">Please enter a valid play group name</string>
+    <string name="enter_valid_play_group_description">Please enter a valid play group description</string>
+
+
+</resources>

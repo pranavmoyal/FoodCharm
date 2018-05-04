@@ -1,0 +1,175 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="Theme.Transparent" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:colorPrimaryDark">@color/themecolor</item>
+        <item name="android:colorPrimary">@color/themecolor</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="colorAccent">@color/themecolor</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowIsTranslucent">true</item>
+
+        <item name="android:windowAllowEnterTransitionOverlap">true</item>
+        <item name="android:windowAllowReturnTransitionOverlap">true</item>
+        <item name="android:windowSharedElementEnterTransition">@android:transition/move</item>
+        <item name="android:windowSharedElementExitTransition">@android:transition/move</item>
+    </style>
+
+    <!-- for dialog appearance -->
+    <style name="ThemeDialogImageSlider" parent="android:Theme.Dialog">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowFullscreen">false</item>
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+        <item name="android:windowBackground">@color/transparent</item>
+        <item name="android:windowSoftInputMode">stateUnspecified|adjustPan</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="colorPrimary">@color/themecolor</item>
+        <item name="colorPrimaryDark">@color/themecolor</item>
+        <item name="colorAccent">#FFFFFF</item>
+        <item name="colorControlNormal">@android:color/white</item>
+        <item name="colorControlActivated">@color/themecolor</item>
+        <item name="colorControlHighlight">@color/themecolor</item>
+    </style>
+
+    <style name="Theme.Transparent.Chat" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:colorPrimaryDark">@color/dash_board_black</item>
+        <item name="android:colorPrimary">@color/dash_board_black</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="colorAccent">@color/themecolor</item>
+        <item name="android:windowFullscreen">false</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowIsTranslucent">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="AppBaseTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:colorPrimaryDark">@color/themecolor</item>
+        <item name="android:colorPrimary">@color/themecolor</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:content">@color/themecolor</item>
+        <item name="colorAccent">@color/themecolor</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowIsTranslucent">true</item>
+
+    </style>
+
+    <style name="MyProgressBar" parent="android:Theme.Holo.Dialog">
+        <item name="android:alertDialogStyle">@style/CustomAlertDialogStyle</item>
+        <item name="android:windowBackground">@color/transparent</item>
+        <item name="android:textColorPrimary">@color/white</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textSize">@dimen/sp_12</item>
+    </style>
+
+    <style name="CustomAlertDialogStyle">
+        <item name="android:bottomBright">@color/transparent</item>
+        <item name="android:bottomDark">@color/transparent</item>
+        <item name="android:bottomMedium">@color/transparent</item>
+        <item name="android:centerBright">@color/transparent</item>
+        <item name="android:centerDark">@color/transparent</item>
+        <item name="android:centerMedium">@color/transparent</item>
+        <item name="android:fullBright">@color/transparent</item>
+        <item name="android:fullDark">@color/transparent</item>
+        <item name="android:topBright">@color/transparent</item>
+        <item name="android:topDark">@color/transparent</item>
+
+
+    </style>
+
+    <style name="MyTabLayoutTextAppearance" parent="TextAppearance.AppCompat.Widget.ActionBar.Title.Inverse">
+        <item name="android:textSize">@dimen/sp_14</item>
+    </style>
+
+    <style name="progressBarWhite">
+        <item name="android:theme">@style/WhiteTheme</item>
+    </style>
+
+    <style name="WhiteTheme">
+        <item name="colorAccent">@color/white</item>
+        <item name="colorControlNormal">@color/white
+        </item>
+        <item name="colorControlHighlight">@color/white
+        </item>
+    </style>
+
+    <!-- For Calender acc to lower than Lollipop -->
+    <style name="DialogTheme" parent="Theme.AppCompat.Light.Dialog">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimary</item>
+        <item name="colorAccent">@color/colorPrimary</item>
+        <item name="colorControlNormal">@android:color/white</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="colorControlActivated">@color/colorPrimary</item>
+        <item name="colorControlHighlight">@color/colorPrimary</item>
+    </style>
+    <!-- For  lollipop -->
+    <style name="DialogThemeLollipop" parent="Theme.AppCompat.Light.Dialog">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimary</item>
+        <item name="colorAccent">@color/colorPrimary</item>
+        <item name="colorControlNormal">@android:color/white</item>
+        <item name="colorControlActivated">@color/colorPrimary</item>
+        <item name="colorControlHighlight">@color/colorPrimary</item>
+    </style>
+
+    <declare-styleable name="SwitchButton">
+        <attr name="kswOnDrawable" format="reference" />
+        <attr name="kswOffDrawable" format="reference" />
+        <attr name="kswThumbDrawable" format="reference" />
+        <attr name="kswThumb_margin" format="dimension|reference" />
+        <attr name="kswThumb_marginTop" format="dimension|reference" />
+        <attr name="kswThumb_marginBottom" format="dimension|reference" />
+        <attr name="kswThumb_marginLeft" format="dimension|reference" />
+        <attr name="kswThumb_marginRight" format="dimension|reference" />
+        <attr name="kswThumb_width" format="dimension|reference" />
+        <attr name="kswThumb_height" format="dimension|reference" />
+        <attr name="kswOnColor" format="color|reference" />
+        <attr name="kswOffColor" format="color|reference" />
+        <attr name="kswThumbColor" format="color|reference" />
+        <attr name="kswThumbPressedColor" format="color|reference" />
+        <attr name="kswAnimationVelocity" format="integer" />
+        <attr name="kswRadius" format="integer" />
+        <attr name="kswMeasureFactor" format="float" />
+        <attr name="kswInsetLeft" format="dimension|reference" />
+        <attr name="kswInsetRight" format="dimension|reference" />
+        <attr name="kswInsetTop" format="dimension|reference" />
+        <attr name="kswInsetBottom" format="dimension|reference" />
+    </declare-styleable>
+
+    <style name="SpinnerDialog" parent="Theme.AppCompat.Dialog">
+        <item name="android:alertDialogStyle">@style/SpinnerDialogStyle</item>
+    </style>
+
+    <style name="SpinnerDialogStyle">
+        <item name="android:background">@android:drawable/edit_text</item>
+        <item name="android:width">@dimen/dp_10</item>
+    </style>
+
+    <style name="SpinnerDialogStyleNew" parent="Theme.AppCompat.Light.Dialog.MinWidth">
+        <item name="android:windowMinWidthMajor">@dimen/dp_20</item>
+    </style>
+
+</resources>

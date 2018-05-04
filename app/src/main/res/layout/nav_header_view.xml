@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/rl_profile_header"
+    android:layout_width="fill_parent"
+    android:layout_height="@dimen/dp_140"
+    android:background="@android:drawable/screen_background_dark_transparent">
+
+    <RelativeLayout
+        android:id="@+id/fl_cv"
+        android:layout_width="@dimen/dp_60"
+        android:layout_height="@dimen/dp_60"
+        android:layout_centerVertical="true"
+        android:layout_marginBottom="@dimen/dp_5"
+        android:layout_marginLeft="@dimen/dp_15"
+        android:layout_marginRight="@dimen/dp_10"
+        android:layout_marginTop="@dimen/dp_5">
+
+        <FrameLayout
+            android:layout_width="@dimen/dp_60"
+            android:layout_height="@dimen/dp_60">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/iv_profile"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:alpha="0.8"
+                android:src="@drawable/ic_buddies_tab"
+                app:civ_border_color="@color/white"
+                app:civ_border_width="@dimen/dp_2" />
+
+        </FrameLayout>
+
+        <ImageView
+            android:id="@+id/iv_notification"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/ic_buddies_tab"
+            android:src="@drawable/ic_buddies_tab"
+            android:visibility="visible" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginBottom="@dimen/dp_5"
+        android:layout_marginLeft="@dimen/dp_25"
+        android:layout_marginRight="@dimen/dp_10"
+        android:layout_marginTop="@dimen/dp_5"
+        android:layout_toRightOf="@+id/fl_cv"
+        android:orientation="vertical">
+
+        <com.pranav.foodcharm.view.TextView
+            android:id="@+id/tv_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pranav Moyal"
+            android:textColor="@color/white"
+            android:textSize="@dimen/sp_18"
+            app:fontName="@string/helvetica_medium" />
+
+        <com.pranav.foodcharm.view.TextView
+            android:id="@+id/tv_address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dp_5"
+            android:text="P.D Moyal,Jypti Kunj,Gandhi Nagar,Abu Road"
+            android:textColor="@color/white"
+            android:textSize="@dimen/sp_14"
+            android:visibility="visible"
+            app:fontName="@string/helvetica_medium" />
+
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dp_5">
+
+            <LinearLayout
+                android:id="@+id/ll_nav_sports"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+
+            </LinearLayout>
+
+
+        </HorizontalScrollView>
+
+
+    </LinearLayout>
+
+</RelativeLayout>

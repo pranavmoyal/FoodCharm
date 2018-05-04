@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="fill_parent"
+    android:background="@color/white_transparent">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="@dimen/dp_25"
+        android:layout_marginRight="@dimen/dp_25"
+        android:background="@color/light_white"
+        android:layout_marginTop="@dimen/dp_30">
+
+        <com.pranav.foodcharm.view.TextView
+            android:id="@+id/heading_text"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingBottom="@dimen/dp_10"
+            android:paddingTop="@dimen/dp_60"
+            android:text="@string/password"
+            android:textColor="@color/black"
+            android:textSize="@dimen/sp_18"
+            android:visibility="gone"
+            app:fontName="@string/helvetica_medium" />
+
+        <com.pranav.foodcharm.view.TextView
+            android:id="@+id/msg"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/heading_text"
+            android:gravity="center"
+            android:lineSpacingMultiplier="1.3"
+            android:paddingBottom="@dimen/dp_10"
+            android:paddingTop="@dimen/dp_60"
+            android:paddingLeft="@dimen/dp_20"
+            android:paddingRight="@dimen/dp_20"
+            android:text=""
+            android:textColor="@color/black"
+            android:textSize="@dimen/sp_15"
+            app:fontName="@string/helvetica_medium" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/dp_45"
+            android:layout_below="@+id/msg"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="@dimen/dp_15"
+            android:layout_marginLeft="@dimen/dp_10"
+            android:layout_marginRight="@dimen/dp_10"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal"
+            android:paddingLeft="@dimen/dp_20"
+            android:paddingRight="@dimen/dp_20">
+
+            <com.pranav.foodcharm.view.TextView
+                android:id="@+id/exit_ok"
+                android:layout_width="0dip"
+                android:layout_height="fill_parent"
+                android:layout_below="@+id/view_exit"
+                android:layout_margin="@dimen/dp_5"
+                android:layout_weight=".5"
+                android:background="@color/black_transparent"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:text="Ok"
+                android:textSize="@dimen/sp_15"
+                app:fontName="@string/helvetica_medium" />
+
+            <com.pranav.foodcharm.view.TextView
+                android:id="@+id/exit_cancel"
+                android:layout_width="0dip"
+                android:layout_height="fill_parent"
+                android:layout_below="@+id/view_exit"
+                android:layout_margin="@dimen/dp_5"
+                android:layout_weight=".5"
+                android:background="@color/transparent"
+                android:gravity="center"
+                android:text=""
+                android:textSize="@dimen/sp_15"
+                android:visibility="gone"
+                app:fontName="@string/helvetica_medium" />
+        </LinearLayout>
+    </RelativeLayout>
+    <ImageView
+        android:id="@+id/mImage_view"
+        android:layout_width="@dimen/dp_80"
+        android:layout_height="@dimen/dp_40"
+        android:layout_marginTop="@dimen/dp_10"
+        android:layout_centerHorizontal="true"
+        android:background="@color/transparent"
+        android:src="@drawable/lowes"/>
+
+</RelativeLayout>

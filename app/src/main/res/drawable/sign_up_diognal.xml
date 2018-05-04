@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@color/colorPrimary"/>
+    <item>
+        <bitmap android:src="@drawable/food" android:gravity="center" android:alpha="0.1"/>
+    </item>
+
+    <item android:top="-300dp"
+        android:bottom="300dp"
+        android:left="-300dp"
+        android:right="0dp">
+        <rotate
+            android:toDegrees="10"
+            android:pivotX="100%"
+            android:pivotY="0%">
+            <shape
+                android:shape="rectangle">
+                <solid
+                    android:color="@color/transparent"/>
+            </shape>
+        </rotate>
+    </item>
+</layer-list>
